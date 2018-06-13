@@ -2,15 +2,17 @@
 /*
 style.css
 */
+html,body
 
 body {
   position: relative;
   font-size: 62.5%;
   line-height: 1.8;
   margin: 0;
+  
 }
 
-h1,h2,h3,p,span,li,a {
+h1,h2,h3,h5,p,span,li,a {
   font-family: 'Roboto Condensed', Arial, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   color: #000;
 }
@@ -23,6 +25,7 @@ a, a.btn {
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
+
 
 /*
 basic style
@@ -180,6 +183,8 @@ cite a {
 .showChart a:hover {
   background: #388ad6;
 }
+
+
 
 
 @media only screen and (max-width: 768px) {
